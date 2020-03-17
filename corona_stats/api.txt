@@ -1,0 +1,15 @@
+- stats
+    - provinceState: "Hubei"
+    countryRegion: "China"
+    lastUpdate: 1584233582000
+    lat: 30.9756403482891
+    long: 112.270692167452
+    confirmed: 67794
+    recovered: 54278
+    deaths: 3085
+    active: 10431
+    admin2: null
+    fips: null
+    combinedKey: null
+    iso2: "CN"
+    iso3: "CHN"

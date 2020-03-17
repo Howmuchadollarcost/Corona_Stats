@@ -1,0 +1,58 @@
+/*
+#214517: green
+#214517: red
+#f1ebec: grey
+*/
+
+:root{
+    --safe: #214517;
+    --danger: #c62f2d;
+    --neutral: #aaaaaa;
+}
+
+.ethiopia{
+    width:  100%;
+    height: 600px;
+    margin-bottom: 200px;
+    display: flex;
+}
+.ethiopia__table{
+    margin-bottom: 50px;
+}
+ 
+
+
+#ET-HA{
+    fill: var(--neutral);
+}
+#ET-DD{
+    fill: var(--neutral);
+}
+#ET-SO{
+    fill: var(--neutral);
+}
+#ET-OR{
+    fill: var(--neutral);
+}
+#ET-BE{
+    fill: var(--neutral);
+}
+#ET-AA{
+    fill: var(--danger);
+}
+#ET-GA{
+    fill: var(--neutral);
+}
+#ET-SN{
+    fill: var(--neutral);
+}
+#ET-AF{
+    fill: var(--neutral);
+}
+#ET-TI{
+    fill: var(--neutral);
+}
+#ET-AM{
+    fill: var(--neutral);
+}
+ 

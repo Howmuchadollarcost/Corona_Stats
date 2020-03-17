@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>የኮቪድ-19 ስታትስቲክስ ስታትስቲክስ</h1>
+      <h1>የኮቪድ-19 ስታትስቲክስ</h1>
       <EthiopianMap />
       <WorldTable stats={stats}/>
     </div>

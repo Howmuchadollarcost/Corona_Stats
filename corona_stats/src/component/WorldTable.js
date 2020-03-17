@@ -39,7 +39,6 @@ function WorldTable(props) {
             <TableHead>
               <TableRow>
                 <TableCell>ሀገር</TableCell>
-                <TableCell>ክልል</TableCell>
                 <TableCell align="right">በበሽታው የተጠቁ</TableCell>
                 <TableCell align="right">ያገገሙ</TableCell>
                 <TableCell align="right">ሞት</TableCell>
@@ -51,7 +50,6 @@ function WorldTable(props) {
                   <TableCell component="th" scope="stat">
                     {stat.countryRegion}
                   </TableCell>
-                  <TableCell align="right">{stat.provinceState}</TableCell>
                   <TableCell align="right">{stat.confirmed}</TableCell>
                   <TableCell align="right">{stat.recovered}</TableCell>
                   <TableCell align="right">{stat.deaths}</TableCell>

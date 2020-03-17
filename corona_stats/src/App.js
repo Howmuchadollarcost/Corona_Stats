@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useEffect} from 'react';
 
-function App() {
+import EthiopianMap from './component/EthiopianMap';
+import WorldTable from './component/WorldTable';
+
+
+const App = () => {
+  const [stats, setStats] = useState([]);
+
+  const fetchCoronaConfirmed = async () => {
+      try {
+          const data = await fetch('https://covid19.mathdro.id/api/confirmed');
+          const res = await data.json();
+          setStats(res);
+      } catch (error) {
+          console.error("Error: ", error);
+      }
+  }
+
+  useEffect(() => {
+      fetchCoronaConfirmed();
+  },[]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <EthiopianMap />
+      <WorldTable stats={stats}/>
     </div>
   );
-}
+};
 
 export default App;

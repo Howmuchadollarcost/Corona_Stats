@@ -40,7 +40,6 @@ function EthiopianMap(props) {
       <div className="ethiopia__table">
         {ethiopianStats.confirmed ? (
           <TableContainer component={Paper}>
-            {console.log(ethiopianStats.confirmed)}
             <Typography
               className={classes.title}
               variant="h4"

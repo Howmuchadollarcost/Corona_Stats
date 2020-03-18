@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 import EthiopianMap from './component/EthiopianMap';
 import WorldTable from './component/WorldTable';
+import DataSetLayout from './component/DataSetLayout';
 
 
 const App = () => {
@@ -23,8 +24,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>የኮቪድ-19 ስታትስቲክስ</h1>
-      <EthiopianMap />
+      <DataSetLayout />
       <WorldTable stats={stats}/>
     </div>
   );

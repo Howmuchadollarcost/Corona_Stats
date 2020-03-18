@@ -29,7 +29,7 @@ function DataSetLayout() {
               <h2>{ethiopiaStats.confirmed.value}</h2>
               </div>
               <div className="title">
-                <h3>በበሽታው የተጠቁ</h3>
+                <h3>የተጠቁ</h3>
               </div>
             </div>
             <div className="col">

@@ -45,11 +45,13 @@ hr{
 
 .data-number{
     font-size: 3em;
+    margin-bottom: 10px;
+    display:inline-block;
 }
 
-
-
-
+.title{
+    font-size: 1.2em;
+}
 
 
 h2,h3{

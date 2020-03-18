@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 
-import EthiopianMap from './component/EthiopianMap';
 import WorldTable from './component/WorldTable';
 import DataSetLayout from './component/DataSetLayout';
 
